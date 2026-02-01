@@ -1,5 +1,5 @@
-import styles from "./menu.module.css";
-import MenuLink from "./MenuLink";
+import styles from "@/componentes/Menu/menu.module.css";
+import MenuLink from "@/componentes/Menu/MenuLink/index.jsx";
 
 export default function Menu() {
   return (
