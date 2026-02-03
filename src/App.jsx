@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Menu from "@/componentes/Menu";
-import Inicio from "@/paginas/index.jsx";
+import Inicio from "@/paginas/inicio/index.jsx";
 
 function App() {
   return (
