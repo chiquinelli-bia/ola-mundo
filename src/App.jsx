@@ -4,6 +4,7 @@ import Menu from "@/componentes/Menu";
 import Inicio from "@/paginas/inicio/index.jsx";
 import Footer from "@/componentes/Footer";
 import PaginaPadrao from "@/componentes/PaginaPadrao";
+import SobreMim from "@/paginas/sobreMim";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>
           <Route path="/" element={<Inicio />}></Route>
+          <Route path="/sobremim" element={<SobreMim />}></Route>
         </Route>
       </Routes>
       <Footer />
