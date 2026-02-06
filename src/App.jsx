@@ -5,6 +5,7 @@ import Inicio from "@/paginas/inicio/index.jsx";
 import Footer from "@/componentes/Footer";
 import PaginaPadrao from "@/componentes/PaginaPadrao";
 import SobreMim from "@/paginas/sobreMim";
+import Posts from "@/paginas/Posts";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Menu></Menu>
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>
-          <Route path="/" element={<Inicio />}></Route>
-          <Route path="/sobremim" element={<SobreMim />}></Route>
+          <Route index element={<Inicio />} />
+          <Route path="/sobremim" element={<SobreMim />} />
+          <Route path="/posts/:id" element={<Posts />} />
         </Route>
       </Routes>
       <Footer />
