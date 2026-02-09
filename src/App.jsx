@@ -6,6 +6,7 @@ import Footer from "@/componentes/Footer";
 import PaginaPadrao from "@/componentes/PaginaPadrao";
 import SobreMim from "@/paginas/sobreMim";
 import Posts from "@/paginas/Posts";
+import NaoEncontrada from "./paginas/naoEncontrada";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/sobremim" element={<SobreMim />} />
           <Route path="/posts/:id" element={<Posts />} />
         </Route>
+        <Route path="*" element={<NaoEncontrada />} />
       </Routes>
       <Footer />
     </BrowserRouter>
