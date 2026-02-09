@@ -5,7 +5,12 @@ export default function PostModelo({ children, fotoCapa, titulo }) {
     <article className={style.postModeloContainer}>
       <div
         className={style.fotoCapa}
-        style={{ background: `url(${fotoCapa})` }}
+        style={{
+          backgroundImage: `url(${fotoCapa})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
       ></div>
       <h2 className={style.titulo}>{titulo}</h2>
       <div className={style.postConteudoContainer}>{children}</div>

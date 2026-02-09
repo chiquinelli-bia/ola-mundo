@@ -6,6 +6,21 @@
   color: revert;
   text-decoration: underline;
 }
+.postModeloContainer pre:not([class]),
+.postModeloContainer blockquote:not([class]) {
+  background-color: #eaeaee;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.postModeloContainer pre:not([class]) {
+  overflow-x: auto;
+}
+.postModeloContainer img:not([class]) {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
 
 .fotoCapa,
 .titulo {
@@ -14,8 +29,6 @@
 
 .fotoCapa {
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
   opacity: 0.3;
   position: absolute;
   top: 0;

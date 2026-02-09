@@ -28,9 +28,10 @@
   font: revert;
 }
 
-.post-markdown-container img {
+.post-markdown-container p img {
   display: block;
   margin: 0 auto;
+  align-items: center;
 }
 
 .post-markdown-container ul {
@@ -43,7 +44,7 @@
 }
 
 .post-markdown-container pre,
-.post-markdown-container blockquote {
+.post-markdown-container blockquote p {
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #eaeaea;
