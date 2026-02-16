@@ -7,10 +7,12 @@ import PaginaPadrao from "@/componentes/PaginaPadrao";
 import SobreMim from "@/paginas/sobreMim";
 import Posts from "@/paginas/Posts";
 import NaoEncontrada from "./paginas/naoEncontrada";
+import ScrollToTop from "@/componentes/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu></Menu>
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>

@@ -1,6 +1,6 @@
 import styles from "@/componentes/Recomendados/recomendados.module.css";
 import posts from "@/json/posts.json";
-import Post from "@/componentes/Post";
+import PostCard from "@/componentes/PostCard";
 import { useParams } from "react-router-dom";
 
 export default function Recomendados() {
@@ -16,7 +16,7 @@ export default function Recomendados() {
           .slice(0, 4)
           .map((post) => (
             <li key={post.id}>
-              <Post post={post} />
+              <PostCard post={post} />
             </li>
           ))}
       </ul>
