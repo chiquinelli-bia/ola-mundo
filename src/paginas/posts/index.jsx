@@ -1,11 +1,12 @@
-import { Route, Routes, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import posts from "@/json/posts.json";
 import PostModelo from "@/componentes/PostModelo";
-import PaginaPadrao from "@/componentes/PaginaPadrao";
 import NaoEncontrada from "@/paginas/naoEncontrada";
 import ReactMarkdown from "react-markdown";
+import Recomendados from "@/componentes/Recomendados";
+// tentar agr q importei posts dos componentes, depois mudar o nome pois está confuso, ver se da certo sem o postEncontrao
 
-export default function Post() {
+export default function Posts() {
   const params = useParams();
   const post = posts.find((post) => {
     return post.id === Number(params.id);
@@ -14,22 +15,16 @@ export default function Post() {
     return <NaoEncontrada />;
   }
   return (
-    <Routes>
-      <Route path="*" element={<PaginaPadrao />}>
-        <Route
-          index
-          element={
-            <PostModelo
-              fotoCapa={`/public/posts/${post.id}/capa.png`}
-              titulo={post.titulo}
-            >
-              <div className="post-markdown-container">
-                <ReactMarkdown>{post.texto}</ReactMarkdown>
-              </div>
-            </PostModelo>
-          }
-        />
-      </Route>
-    </Routes>
+    <>
+      <PostModelo
+        fotoCapa={`/public/posts/${post.id}/capa.png`}
+        titulo={post.titulo}
+      >
+        <div className="post-markdown-container">
+          <ReactMarkdown>{post.texto}</ReactMarkdown>
+        </div>
+      </PostModelo>
+      <Recomendados />
+    </>
   );
 }

@@ -1,0 +1,14 @@
+.recomendados {
+  padding: 4em;
+}
+.recomendados-lista {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .recomendados-lista {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}
