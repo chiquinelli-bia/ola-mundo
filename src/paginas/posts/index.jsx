@@ -16,10 +16,7 @@ export default function Posts() {
   }
   return (
     <>
-      <PostModelo
-        fotoCapa={`/public/posts/${post.id}/capa.png`}
-        titulo={post.titulo}
-      >
+      <PostModelo fotoCapa={`/posts/${post.id}/capa.png`} titulo={post.titulo}>
         <div className="post-markdown-container">
           <ReactMarkdown>{post.texto}</ReactMarkdown>
         </div>

@@ -5,48 +5,35 @@ import { SBCapa, SBFoto } from "@/assets/index.js";
 export default function SobreMim() {
   return (
     <PostModelo fotoCapa={SBCapa} titulo="Sobre Mim">
-      <h3 className={styles.subtitulo}>Olá, eu sou o Antônio</h3>
+      <h3 className={styles.subtitulo}>Olá! Eu sou a Bianca.</h3>
       <img
         src={SBFoto}
-        alt="Foto do Antônio Evaldo sorrindo"
+        alt="Foto da Bianca Chiquinelli"
         className={styles.fotoSobreMim}
       />
       <p className={styles.paragrafo}>
-        Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te
-        ver por aqui.
+        Sou desenvolvedora front-end em formação, apaixonada por tecnologia,
+        design e criação de interfaces acessíveis e funcionais.
       </p>
       <p className={styles.paragrafo}>
-        Minha história com programação começou no Instituto Federal do Piauí
-        (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu
-        aprendi lógica de programação e o básico de várias linguagens, como PHP,
-        Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava
-        muito de estudar programação, mas na época não fazia ideia de que
-        trabalharia com isso hoje.
+        Minha jornada na programação começou através dos estudos em
+        desenvolvimento web, onde venho construindo projetos práticos utilizando
+        HTML, CSS, JavaScript e React. Atualmente, estou aprofundando meus
+        conhecimentos com foco em criar experiências digitais modernas,
+        responsivas e acessíveis.
       </p>
       <p className={styles.paragrafo}>
-        No ensino superior, escolhi cursar Engenharia Elétrica na Universidade
-        Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de
-        Educação Tutorial), um grupo acadêmico que contribui de diversas formas
-        para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web
-        para ser um dos mantenedores do site deles.
+        Tenho grande interesse em UX, design visual e boas práticas de
+        desenvolvimento, buscando sempre unir estética, usabilidade e código
+        limpo.
       </p>
       <p className={styles.paragrafo}>
-        Com isso tive minha experiência de dev mais próxima da realidade, com
-        prazos de implementação para o site, e aprendi muito enquanto
-        codificava.
-      </p>
-      <p className={styles.paragrafo}>
-        E foi enquanto eu estava no PET que decidi procurar um estágio em
-        desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e
-        percebi que ela aliava duas paixões minhas: programação e educação. Para
-        minha felicidade, fui escolhido para fazer parte do time.
-      </p>
-      <p className={styles.paragrafo}>
-        Desde então, tem sido aprenas aprendizados atrás de aprendizados. A
-        Alura é uma escola não só para seus alunos e alunas, mas também para os
-        colaboradores e colaboradoras. Hoje sou muito feliz de ter a
-        oportunidade de trazer esses conteúdos ricos e encantadores para você.
-        Espero que aprenda bastante!
+        Este blog reúne anotações e explicações práticas sobre JavaScript, React
+        e desenvolvimento web. Organizo os conteúdos com base nos estudos e
+        projetos que desenvolvo, transformando conceitos técnicos em resumos
+        claros que facilitam a revisão e demonstram meu processo de
+        aprendizagem. Alguns posts são registros pontuais de aulas e descobertas
+        importantes ao longo dessa jornada.
       </p>
     </PostModelo>
   );

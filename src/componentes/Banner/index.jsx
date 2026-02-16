@@ -7,9 +7,9 @@ export default function Banner() {
       <div className={styles.apresentacao}>
         <h1 className={styles.titulo}> Olá, Mundo</h1>
         <p className={styles.paragrafo}>
-          Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de
-          Front-end da Alura. Aqui compartilho vários conhecimentos, espero que
-          aprenda algo novo :
+          Bem-vindo(a) ao meu espaço na web. Sou desenvolvedora front-end em
+          formação e aqui compartilho projetos, aprendizados e experiências com
+          React, JavaScript e desenvolvimento web.
         </p>
       </div>
       <div className={styles.imagens}>
@@ -20,7 +20,7 @@ export default function Banner() {
         />
         <img
           src={minhaFoto}
-          alt="foto do Ântonio Evaldo"
+          alt="foto da Bianca Chiquinelli"
           className={styles.minhaFoto}
         />
       </div>

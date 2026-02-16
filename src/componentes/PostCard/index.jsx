@@ -6,7 +6,7 @@ export default function PostCard({ post }) {
     <Link to={`/posts/${post.id}`}>
       <div className={styles.post}>
         <img
-          src={`/public/posts/${post.id}/capa.png`}
+          src={`/posts/${post.id}/capa.png`}
           alt="imagem da capa do post"
           className={styles.capa}
         />
