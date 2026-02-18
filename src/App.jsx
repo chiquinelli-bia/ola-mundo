@@ -5,7 +5,7 @@ import Inicio from "@/paginas/inicio/index.jsx";
 import Footer from "@/componentes/Footer";
 import PaginaPadrao from "@/componentes/PaginaPadrao";
 import SobreMim from "@/paginas/sobreMim";
-import Posts from "@/paginas/Posts";
+import Posts from "@/paginas/posts";
 import NaoEncontrada from "./paginas/naoEncontrada";
 import ScrollToTop from "@/componentes/ScrollToTop";
 
