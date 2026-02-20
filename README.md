@@ -26,9 +26,7 @@ Este repositório reúne **minhas contribuições técnicas e aprendizados**, ev
 
   <p align="center">
   <img src="./src/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
-  <img src="./src/assets/ola-mundo-pt2.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
-  <img src="@/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
-  <img src="@/assets/ola-mundo-posts.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
+  <img src="./src/assets/ola-mundo-posts.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
 </p>
 
 ## Tecnologias Utilizadas
