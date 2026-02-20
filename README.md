@@ -1,6 +1,6 @@
 # Olá Mundo!
 
-![Thumbnail do projeto. O título é “” e o Subtítulo é “adaptado por Bianca Chiquinelli.”](./src/assets/Front-end-Projeto%20React%20Router%20–%20Olá%20Mundo.png)
+![Thumbnail do projeto. O título é “Projeto React Router - Olá Mundo” e o Subtítulo é “adaptado por Bianca Chiquinelli.”](./src/assets/Front-end-Projeto-React-Router-Olá-Mundo.png)
 
 O **Olá Mundo** é um blog pessoal com navegação dinâmica entre páginas e posts técnicos, baseado em um layout do Figma.
 
@@ -27,6 +27,8 @@ Este repositório reúne **minhas contribuições técnicas e aprendizados**, ev
   <p align="center">
   <img src="./src/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
   <img src="./src/assets/ola-mundo-pt2.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
+  <img src="@/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
+  <img src="@/assets/ola-mundo-posts.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
 </p>
 
 ## Tecnologias Utilizadas
@@ -60,10 +62,10 @@ O projeto também incorpora boas práticas já refletidas nas contribuições, c
 - **Versão online**: [Clique aqui](https://ola-mundo-xi-seven.vercel.app/)
 - **Rodar localmente**:
 
-1. Clone este repositório: ```bash
-   git clone https://github.com/chiquinelli-bia/ola-mundo.git
+1. Clone este repositório:
 
-   ```
+   ```bash
+   git clone https://github.com/chiquinelli-bia/ola-mundo.git
 
    ```
 
@@ -93,4 +95,5 @@ O projeto também incorpora boas práticas já refletidas nas contribuições, c
 ## Créditos
 
 - Projeto original: ![Acesse aqui.](https://cdn3.gnarususercontent.com.br/2676-react/01/preparando-ambiente.zip)
-- Instrutor(es) e curso: Antônio Evaldo, ![React: desenvolvendo em React Router com JavaScript](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript) - Este repositório destaca **apenas minhas contribuições** ao projeto
+- Instrutor(es) e curso: Antônio Evaldo, ![React: desenvolvendo em React Router com JavaScript](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript)
+- Este repositório destaca **apenas minhas contribuições** ao projeto
