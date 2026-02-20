@@ -1,6 +1,6 @@
 # Olá Mundo!
 
-![Thumbnail do projeto. O título é “” e o Subtítulo é “adaptado por Bianca Chiquinelli.”](@/assets/Front-end-Projeto%20React%20Router%20–%20Olá%20Mundo.png)
+![Thumbnail do projeto. O título é “” e o Subtítulo é “adaptado por Bianca Chiquinelli.”](./src/assets/Front-end-Projeto%20React%20Router%20–%20Olá%20Mundo.png)
 
 O **Olá Mundo** é um blog pessoal com navegação dinâmica entre páginas e posts técnicos, baseado em um layout do Figma.
 
@@ -25,8 +25,8 @@ Este repositório reúne **minhas contribuições técnicas e aprendizados**, ev
 - **Boas práticas e bibliotecas auxiliares:** Integração de soluções que melhoram produtividade e experiência do usuário, mantendo o código desacoplado e alinhado ao ecossistema React.
 
   <p align="center">
-  <img src="@/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
-  <img src="@/assets/ola-mundo-pt2.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
+  <img src="./src/assets/ola-mundo-pt1.png" alt="Tela inicial do blog Olá Mundo exibindo apresentação pessoal e grade de posts técnicos com navegação para leitura." width="450" />
+  <img src="./src/assets/ola-mundo-pt2.png" alt="Página de artigo do blog com conteúdo técnico e seção de posts recomendados para continuidade da leitura." width="450" />
 </p>
 
 ## Tecnologias Utilizadas
